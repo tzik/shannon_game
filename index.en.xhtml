@@ -131,20 +131,5 @@ English/<a href="index.ja.xhtml">Japanese</a><br/>
 <td><a href="stage.xhtml?advanced5#cut"><img src="png/advanced5.png"/></a></td>
 </tr>
 </table>
-
-<script><![CDATA[
-document.addEventListener("DOMContentLoaded",function(){
-
-var ms = document.getElementsByClassName("mail");
-for(var i=ms.length-1;i>=0;--i)
-{
-  var m = ms.item(i);
-  var a = document.createElement("a");
-  a.setAttribute("href","mailto:"+(a.textContent=m.alt.split("").reverse().join("")));
-  m.parentNode.replaceChild(a,m);
-}
-
-},false);
-]]></script>
 </body>
 </html>

@@ -1,5 +1,4 @@
 
-
 a{
  text-decoration:none;
 }
@@ -13,9 +12,4 @@ tr, td
 img
 {
   border: thin solid black;
-}
-
-#mail img
-{
-  border: none;
 }

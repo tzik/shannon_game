@@ -3,34 +3,43 @@
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8"/>
+  <meta http-equiv="content-style-type" content="text/css"/>
+  <meta http-equiv="content-script-type" content="text/javascript"/>
+
+  <meta name="author" content="tzik"/>
+  <meta name="copyright" content="© 2010 tzik"/>
+  <meta name="description" content="A Implementation of Shannon Switching Game in Javascript"/>
+  <meta name="keywords" content="Game,Browser Game,Shannon Switching Game,Javascript,SVG,Bridg-It,Gale"/>
+
   <title>Description</title>
   <link rel="stylesheet" type="text/css" href="css/default.css"/>
 </head>
 <body>
 
-<h1>Shannon's Switching Game</h1>
-English/<a href="index.xhtml.ja">Japanese</a><br/>
+<h1>Shannon Switching Game</h1>
+English/<a href="index.ja.xhtml">Japanese</a><br/>
 <h2>Rules</h2>
 <ul>
-  <li>A two-players game on a undirected graph with a pair of special vertices.</li>
-  <li>Each player (named <em>SHORT</em> or <em>CUT</em>) takes a edge alternately.</li>
-  <li><em>SHORT</em> contracts the edge in his turn. His goal is to glue the special vertices into single vertex.</li>
-  <li><em>CUT</em> deletes the edge. His goal is to separate the special vertices.</li>
+  <li>Shanonn Switching Game is a two-players game on an undirected graph with a pair of special vertices.</li>
+  <li>Each player (named <em>SHORT</em> or <em>CUT</em>) takes an edge alternately.</li>
+  <li><em>SHORT</em> contracts an edge in his turn. His goal is to glue the special vertices into a single vertex.</li>
+  <li><em>CUT</em> deletes an edge. His goal is to separate the special vertices.</li>
 </ul>
 
 <h2>Usage</h2>
 <ul>
-  <li>Double click a edge to contract or delete.</li>
-  <li>Drag a vertex to move.</li>
+  <li>Double-click an edge to contract or delete it.</li>
+  <li>Drag a vertex with the mouse to move it.</li>
   <li>Tree button: decompose the graph into maxmum disjoint tree pair.</li>
   <li>Cheat button: decompose the graph into <em>fundamental decomposition:</em>
     <ul>
-      <li>If there is a path consist of blue edges between the special vertices, <em>SHORT</em> has winning strategy.</li>
-      <li>If a cutset consist of red edge separates the special vertices, <em>CUT</em> has winning strategy.</li>
-      <li>Otherwise, the player moves next has winning strategy.</li>
+      <li>If there is a blue-colored path between the special vertices, <em>SHORT</em> has a winning strategy.</li>
+      <li>If there is a red-colored cutset separating the special vertices, <em>CUT</em> has a winning strategy.</li>
+      <li>Otherwise, the player who moves next has a winning strategy.</li>
     </ul>
   </li>
-  <li>Recommended button: show the winning strategy, if it exists.</li>
+  <li>Recommended button: show a winning strategy, if it exists.</li>
 </ul>
 
 <h2>Instances</h2>

@@ -19,7 +19,7 @@
 
 <h1>Shannon Switching Game</h1>
 English/<a href="index.xhtml.ja">Japanese</a><br/>
-<a href="/DCP/index.en.html">back</a>
+<!-- <a href="/DCP/index.en.html">back</a> -->
 <h2>Rules</h2>
 <ul>
   <li>Shanonn Switching Game is a two-players game on an undirected graph with a pair of special vertices.</li>
@@ -155,7 +155,7 @@ This software is licensed under <a href="LICENSE">GPL-2</a>.<br/>
 TSUIKI Taiju (立木 泰樹)<br/>
 email: <img class="mail" src="png/mail.png" style="height:1em;" alt="pj.kizt@vinu"/><br/>
 KAWASE Yasushi (河瀬 康志)<br/>
-email: <img class="mail" src="png/mail2.png" style="height:1em;" alt="pj.ca.oykot-u.t.tats@esawak"/>
+<!-- email: <img class="mail" src="png/mail2.png" style="height:1em;" alt="pj.ca.oykot-u.t.tats@esawak"/> -->
 
 <script><![CDATA[
 document.addEventListener("DOMContentLoaded",function(){

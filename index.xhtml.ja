@@ -20,7 +20,7 @@
 <h1>シャノンのスイッチングゲーム</h1>
 <p>
   <a href="index.xhtml.en">English</a>/Japanese<br/>
-  <a href="/DCP/">back</a>
+  <!-- <a href="/DCP/">back</a> -->
 </p>
 
 <h2>ルール</h2>
@@ -161,7 +161,7 @@
 立木 泰樹 (TSUIKI Taiju)<br/>
 email: <img class="mail" src="png/mail.png" style="height:1em;" alt="pj.kizt@vinu"/><br/>
 河瀬 康志 (KAWASE Yasushi)<br/>
-email: <img class="mail" src="png/mail2.png" style="height:1em;" alt="pj.ca.oykot-u.t.tats@esawak"/>
+<!-- email: <img class="mail" src="png/mail2.png" style="height:1em;" alt="pj.ca.oykot-u.t.tats@esawak"/> -->
 
 <script type="text/javascript"><![CDATA[
 document.addEventListener("DOMContentLoaded",function(){
